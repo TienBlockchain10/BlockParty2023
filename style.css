@@ -40,8 +40,10 @@ body {
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
-	color: #ffffff;
+	color: #fdfcfc;
 }
+
+
 
 ul {
 	padding: 0;
@@ -427,7 +429,7 @@ button:focus {
 }
 
 .mu-title-SPEAKER-TITLE {
-	color: #000000;
+	color: #f7f7f7;
 	margin-bottom: 15px;
 	padding: 0;
 	z-index: 10;
@@ -1085,11 +1087,18 @@ button:focus {
 /* SPONSORS */
 /*--------------------*/
 
+
+.content {
+	width: 100px;
+	background-color: rgb(255, 255, 255);
+}
+
 #mu-sponsors {
-	background-color: #c762cb;
+	background-color: #a3aaeb;
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 .mu-sponsors-area {
@@ -1107,7 +1116,7 @@ button:focus {
 }
 
 .mu-sponsors-single {
-	background: #eee;
+	background-color: #a3aaeb;
 	display: inline;
 	float: left;
 	margin-top: 10px;
