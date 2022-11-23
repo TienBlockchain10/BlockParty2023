@@ -356,8 +356,8 @@ button:focus {
 /*--------------------*/
 
 #mu-hero .navbar-default {
-	background-color: #fff;
-	border-color: #e7e7e7;
+	background-color: rgb(244, 110, 217);
+	border-color: #000000;
 	padding: 5px 0;
 }
 
@@ -419,6 +419,14 @@ button:focus {
 }
 
 .mu-title {
+	color: #000000;
+	margin-bottom: 15px;
+	padding: 0;
+	z-index: 10;
+	text-transform: capitalize;
+}
+
+.mu-title-SPEAKER-TITLE {
 	color: #000000;
 	margin-bottom: 15px;
 	padding: 0;
@@ -639,7 +647,7 @@ button:focus {
 
 
 .mu-event-timeline ul li .mu-single-event {
-	background-color: #fff;
+	background-color: rgb(72, 69, 69);
 	-webkit-box-shadow: 0 0 16px 0 rgba(32, 32, 47, 0.16);
 	-moz-box-shadow: 0 0 16px 0 rgba(32, 32, 47, 0.16);
 	box-shadow: 0 0 16px 0 rgba(32, 32, 47, 0.16);
@@ -714,7 +722,7 @@ button:focus {
 
 
 #mu-speakers {
-	background-color: #fff;
+	background-color: rgb(3, 3, 3);
 	display: inline;
 	float: left;
 	width: 100%;
@@ -862,7 +870,7 @@ button:focus {
 }
 
 .mu-single-price {
-	background-color: #f8f8f8;
+	background-color: #f8f8f8ae;
 	display: inline;
 	float: left;
 	text-align: center;
@@ -880,6 +888,30 @@ button:focus {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
+/* I ADDED THIS BRUVVVVVVVVVVVVVVVVVVVVVVVV */
+
+.mu-single-price-out {
+	background-color: #ffffff;
+	display: inline;
+	float: left;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	padding: 15px;
+	overflow: hidden;
+}
+
+.mu-single-price-head-out {
+	color: rgb(255, 255, 255);
+	display: inline;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* ANYTHING BETWEEN HERE IS ADDED BY MEEEEEEE */
 
 .mu-single-price-head .mu-currency {
 	font-weight: bold;
