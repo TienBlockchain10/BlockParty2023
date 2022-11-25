@@ -235,7 +235,7 @@ button:focus {
 .mu-hero-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.94;
+	opacity: 0.86;
 	width: 100%;
 }
 
@@ -1130,7 +1130,7 @@ button:focus {
 /*--------------------*/
 
 #mu-faq {
-	background-color: #f8f8f8;
+	background-color: #2574A9;
 	display: inline;
 	float: left;
 	position: relative;
@@ -1169,6 +1169,7 @@ button:focus {
 
 .mu-faq-content .panel-default>.panel-heading+.panel-collapse>.panel-body {
 	text-align: left;
+	color: rgb(0, 0, 0)
 }
 
 
